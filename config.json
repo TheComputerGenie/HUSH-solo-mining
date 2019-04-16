@@ -1,0 +1,45 @@
+{
+    "coin": "HUSH.json",
+    "address": "RCAoBKuWio6cTCiTnRDWZzMc3Wi4Cawrq6",
+    "pubkey": "02cc36ade8ecdb0611511ff834a2623f5e626efb87d7fc421c6832545cfdb9e128",
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 18031,
+            "user": "MyUser",
+            "password": "MyPass"
+        }
+    ],
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 18030,
+        "disableTransactions": false
+    },
+    "ports": {
+        "3800": {
+            "diff": 0.5
+        },
+        "3801": {
+            "diff": 5
+        }
+    },
+    "website": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": "8088"
+    },
+    "blockRefreshInterval": 5,
+    "jobRebroadcastTimeout": 70,
+    "connectionTimeout": 6000000,
+    "tcpProxyProtocol": false,
+    "clustering": {
+        "enabled": false,
+        "forks": 3
+    },
+    "cliPort": 17117,
+    "blockNotifyListener": {
+        "enabled": false,
+        "port": 17118
+    }
+}
